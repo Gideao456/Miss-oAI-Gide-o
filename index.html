@@ -1,31 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Flashcard</title>
+<meta charset="UTF-8" />
+<title>Cartas de Gideão</title>
+<style>
+body {
+background-color: #ffe6f0; /* Cor de fundo suave */
+font-family: Arial, sans-serif;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 20px;
+}
+.card {
+background-color: #0e2de0; /* Rosa candy */
+color: #fff;
+width: 300px;
+margin: 15px;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+h2 {
+margin-top: 0;
+font-size: 1.2em;
+}
+p {
+margin-top: 10px;
+line-height: 1.4;
+}
+</style>
 </head>
 <body>
-    <main>
-        <section id="container">
-            <!-- <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        <p>O que é JavaScript?</p>
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        <p>O JavaScript é uma linguagem de programação</p>
-                    </div>
-                </div>
-            </article> -->
-        </section>
-    </main>
-    <footer>
-        <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
-    </footer>
-    <script src="app.js"></script>
-    <script src="perguntas.js"></script>
+
+<div class="card">
+<h2>Quem sou eu?</h2>
+<p>Me chamo Gideão e tenho 16 anos.</p>
+</div>
+
+<div class="card">
+<h2>Eu e a minha escola</h2>
+<p>Eu gosto de minha escola.</p>
+</div>
+
+<div class="card">
+<h2>Meus pets</h2>
+<p>rAté o momento, não tenho pets</p>
+</div>
+
+<div class="card">
+<h2>Meu presente</h2>
+<p>Trabalho na MagParaná e estou cursando o segundo ano do ensino médio</p>
+</div>
+
+<div class="card">
+<h2>Meu futuro</h2>
+<p>Quero ser gestor de alguma área e ganhar muito bem.</p>
+</div>
+
+<div class="card">
+<h2>Como estarei daqui a 10 anos</h2>
+<p>Realizado</p>
+</div>
+
 </body>
 </html>
